@@ -1,0 +1,151 @@
+.baseContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url('../assets/images/italy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.iconContainer{
+    display: flex;
+    height: 100%;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 100%;
+    width: 50%;
+}
+.direction-popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000066;
+    box-shadow: 0px 4px 4px #0000001a;
+    height: 95px;
+    position: relative;
+    width: 115px;
+    margin-right: 20px;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+.direction-popup .element {
+    color: #ffffff;
+    font-family: "Harmattan-Bold", Helvetica;
+    font-size: 10px;
+    font-weight: 700;
+    left: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3px;
+    width: 18px;
+}
+
+.direction-popup .element-m {
+    color: #ffffff;
+    font-family: "Harmattan-Bold", Helvetica;
+    font-size: 10px;
+    font-weight: 700;
+    left: 9px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 70px;
+    white-space: nowrap;
+}
+
+.direction-popup .group {
+    position: absolute;
+}
+
+.direction-popup .default {
+    width: 18px;
+}
+
+.direction-popup .variant-2 {
+    width: 21px;
+}
+
+.direction-popup .property-1-default {
+    height: 66px;
+    left: 45px;
+    top: 17px;
+    width: 27px;
+}
+
+.direction-popup .property-1-variant-2 {
+    height: 68px;
+    left: 53px;
+    top: 15px;
+    width: 33px;
+}
+
+.notification-popup {
+    height: 52px;
+    position: relative;
+    width: 135px;
+    padding-top: 30px;
+}
+
+.notification-popup .overlap-group {
+    background-color: #00000066;
+    border-radius: 20px 0px 0px 20px;
+    height: 52px;
+    position: relative;
+    width: 135px;
+}
+
+.notification-popup .layer {
+    height: 20px;
+    left: 83px;
+    position: absolute;
+    top: 11px;
+    width: 20px;
+}
+
+.notification-popup .overlap {
+    height: 100%;
+    left: 32px;
+    position: absolute;
+    top: -7px;
+    width: 75%;
+}
+
+.notification-popup .text-wrapper {
+    color: #ffffff;
+    font-family: "Harmattan-Bold", Helvetica;
+    font-size: 13px;
+    font-weight: 700;
+    height: 100%;
+    left: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.notification-popup .paragraph {
+    color: #ffffff;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    height: 100%;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 15px;
+    width: 100%;
+}
+
