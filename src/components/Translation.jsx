@@ -1,5 +1,4 @@
-import React from "react";
-import "../style/Translation.css";
+import "../styles/Translation.css";
 
 function Translation() {
     return (<>translation</>);

@@ -1,18 +1,17 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Glasses from './components/Glasses.jsx'
+import Places from './components/Places.jsx'
+import Notifications from './components/Notifications.jsx'
+import AppIntegration from './components/AppIntegration.jsx'
+import Translation from './components/Translation.jsx'
 
-import Glasses from './Glasses';
-import Places from './Places';
-import Notifications from './Notifications';
-import AppIntegration from './AppIntegration';
-import Translation from './Translation';
-
-import "../style/App.css";
-
+import './App.css'
 
 function App() {
-    return (
-        <BrowserRouter>
+
+  return (
+    <>
+      <BrowserRouter>
             <Routes>
                 <Route path="/" element={ <Glasses /> }>
                     <Route path="places" element={ <Places /> } />
@@ -22,8 +21,8 @@ function App() {
                 </Route>
             </Routes>
         </BrowserRouter>
-    );
+    </>
+  )
 }
 
-
-export default App;
+export default App

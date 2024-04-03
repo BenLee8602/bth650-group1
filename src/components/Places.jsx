@@ -1,9 +1,9 @@
-import "../style/Places.css";
+import '../styles/Places.css'
 
-function Places() {
-    return (
-    <section className="places-container">places</section>
-    );
+const Places = () => {
+  return (
+    <section className = 'places-container'>Places</section>
+  )
 }
 
-export default Places;
+export default Places

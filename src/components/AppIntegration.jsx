@@ -1,5 +1,4 @@
-import React from "react";
-import "../style/AppIntegration.css";
+import "../styles/AppIntegration.css"
 
 function AppIntegration() {
     return (<>app integration</>);
