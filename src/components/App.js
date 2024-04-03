@@ -7,6 +7,8 @@ import Notifications from './Notifications';
 import AppIntegration from './AppIntegration';
 import Translation from './Translation';
 
+import "../style/App.css";
+
 
 function App() {
     return (
