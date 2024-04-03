@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Glasses from './Glasses';
-import Places from './Places';
-import Notifications from './Notifications';
-import AppIntegration from './AppIntegration';
-import Translation from './Translation';
+import Glasses from './components/Glasses';
+import Places from './components/Places';
+import Notifications from './components/Notifications';
+import AppIntegration from './components/AppIntegration';
+import Translation from './components/Translation';
 
-import "../style/App.css";
+import './style/App.css';
 
 
 function App() {
