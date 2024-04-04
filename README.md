@@ -20,3 +20,10 @@ $ npm start
 ```
   
 open a browser and go to `http://localhost:3000/` to use the app
+
+## routes
+navigate to the following routes to view the different ui pages
+- `/places` places page
+- `/notifications` notifications page
+- `/apps` app integration page
+- `/translation` translate page
