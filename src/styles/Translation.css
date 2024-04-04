@@ -1,0 +1,48 @@
+.translation {
+    position: relative;
+}
+
+.translation .target {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border: 2px solid white;
+}
+
+.translation .target:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.translation .target .target-text {
+    color: white;
+    visibility: hidden;
+}
+
+.translation .target:hover .target-text {
+    visibility: visible;
+}
+
+.translation #t1 {
+    left: 30px;
+    top: 200px;
+    width: 160px;
+    height: 160px;
+}
+
+.translation #t2 {
+    left: 500px;
+    top: 45px;
+    width: 400px;
+    height: 80px;
+}
+
+.translation #t3 {
+    left: 1100px;
+    top: 300px;
+    width: 160px;
+    height: 60px;
+}
