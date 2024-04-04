@@ -1,4 +1,92 @@
-.place-container{
-    background-image: #000;
-    color: #fff;
+.places-container {
+  display: flex;
+  /* width: 408.189px; */
+  width: 1280px;
+  height: 620px;
+
+  border: none;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  /* border-radius: 160px; */
+  /* height: 242px; */
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  /* background-color: red; */
+  /* background-image: url('./src/assets/nikolay-vorobyev-kzsMak9p9L0-unsplash.jpg');
+  background-size: inherit;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.card-wrapper {
+  position: relative;
+  max-width: 128px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 5px 2px 1px;
+  font-size: 10px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.card-title {
+  font-family: Inter, sans-serif;
+  margin: 0;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  white-space: nowrap;
+}
+
+.card-image {
+  aspect-ratio: 3.85;
+  object-fit: cover;
+  width: 100%;
+  flex: 1;
+}
+
+.card-distance {
+  font-family: Inter, sans-serif;
+}
+
+.pit-pizzeria {
+  position: absolute;
+  top: 300px;
+  left: 1000px;
+}
+
+.haven-bakery {
+  position: absolute;
+  top: 360px;
+  left: 400px;
+}
+
+.pets4life {
+  position: absolute;
+  top: 400px;
+  left: 1500px;
+}
+
+.bigz-sports-pub {
+  position: absolute;
+  /* top: 300px; */
+  left: 600px;
+}
+
+.cloud9 {
+  position: absolute;
+  top: 600px;
+  left: 1500px;
+}
+
+.karaoke {
+  position: absolute;
+  top: 800px;
+  left: 1200px;
 }

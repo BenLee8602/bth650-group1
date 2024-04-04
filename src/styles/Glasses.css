@@ -1,18 +1,91 @@
 .glasses {
-    width: 1280px;
-    height: 720px;
-    border: 2px solid black;
-    border-radius: 160px;
-    overflow: hidden;
-    margin: auto;
-    background-color: white;
+  /* display: flex; */
+  width: 1280px;
+  height: 720px;
+  border: 2px solid black;
+  border-radius: 160px;
+  overflow: hidden;
+  margin: auto;
+
+  background-image: url('./src/assets/claudio-schwarz-DpeXitxtix8-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .navbar {
-    width: 100%;
-    height: 60px;
-    margin: 20px 0px 0px 0px;
-    background-color: black;
-    opacity: 0.4;
-    color: white;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  margin: 20px 0px 20px 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* background-color: black; */
+  /* opacity: 0.4; */
+  color: white;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  flex: 1;
+  padding: 2px 8px;
+  font-size: 10px;
+}
+
+.weather-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+  padding: 3px 26px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.weather-icon {
+  width: 16px;
+  aspect-ratio: 1;
+  scale: 1.6;
+  object-fit: auto;
+  object-position: center;
+}
+
+.temperature {
+  font-family: Harmattan, sans-serif;
+  scale: 1.6;
+}
+
+.music-title {
+  margin: auto 0;
+  font-family: Harmattan, sans-serif;
+  font-weight: 400;
+  scale: 1.4;
+}
+
+.date-text {
+  display: flex;
+  flex: 1;
+  padding: 2px 8px;
+  /* color: #fff; */
+  font: 700 10px Harmattan, sans-serif;
+  justify-content: center;
+  align-items: center;
+  scale: 1.6;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+  flex: 1;
+  padding: 2px 8px;
+}
+
+.icon {
+  width: 16px;
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  scale: 1.2;
 }
