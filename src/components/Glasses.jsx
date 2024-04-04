@@ -1,8 +1,11 @@
-import { Outlet } from "react-router-dom";
 import "../styles/Glasses.css";
 
-function Glasses() {
-    return <div className="glasses">
+function Glasses({ bgUrl, children }) {
+    const bg = {
+        backgroundImage: `url("${bgUrl}")`
+    };
+
+    return <div className="glasses" style={bg}>
         <div className="navbar">
             
             <div className="info-container">
@@ -22,7 +25,7 @@ function Glasses() {
             </div>
 
         </div>
-        <Outlet />
+        { children }
     </div>
 }
 

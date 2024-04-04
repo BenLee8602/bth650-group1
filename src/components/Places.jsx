@@ -1,7 +1,8 @@
+import Glasses from "./Glasses.jsx";
 import '../styles/Places.css';
 
 const Places = () => {
-  return (
+  return (<Glasses bgUrl="./src/assets/claudio-schwarz-DpeXitxtix8-unsplash.jpg">
     <section className="places-container">
       
       <div className="card-wrapper pit-pizzeria">
@@ -70,7 +71,7 @@ const Places = () => {
         </div>
       </div>
     </section>
-  );
+  </Glasses>);
 };
 
 export default Places;
