@@ -1,7 +1,9 @@
+import Glasses from "./Glasses";
 import "../styles/Translation.css";
 
 function Translation() {
-    return (<>translation</>);
+    return (<Glasses bgUrl="translatebg.png" className="translation">
+    </Glasses>);
 }
 
 export default Translation;
