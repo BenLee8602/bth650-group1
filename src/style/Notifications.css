@@ -3,7 +3,6 @@
     height: 100%;
     display: flex;
     justify-content: flex-end;
-    background-image: url('../assets/images/italy.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
